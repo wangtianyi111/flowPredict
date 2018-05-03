@@ -47,7 +47,7 @@ public class PlotUtil {
 		// Y-axis
 		final NumberAxis rangeAxis = (NumberAxis) xyPlot.getRangeAxis();
 		rangeAxis.setRange(min, max);
-		rangeAxis.setTickUnit(new NumberTickUnit(50));
+		rangeAxis.setTickUnit(new NumberTickUnit(200));
 		final ChartPanel panel = new ChartPanel(chart);
 		final JFrame f = new JFrame();
 		f.add(panel);
